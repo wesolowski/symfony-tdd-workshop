@@ -21,9 +21,9 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
         mappings:
-            App:
+            component:
+                type:      annotation
+                dir:       '%kernel.root_dir%/../src/Component/'
+                prefix:    'App\Component\'
+                alias:     Component
                 is_bundle: false
-                type: annotation
-                dir: '%kernel.project_dir%/src/Entity'
-                prefix: 'App\Entity'
-                alias: App
