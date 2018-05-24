@@ -6,6 +6,7 @@ namespace App\Component\Demo\Business;
 
 class FakeInfo implements FakeInfoInterface
 {
+    public const PREFIX = 'HI! ';
     /**
      * @var string
      */
@@ -24,6 +25,6 @@ class FakeInfo implements FakeInfoInterface
      */
     public function getInfo() : string
     {
-        return 'Info: ' . $this->infoFromConfig;
+        return static::PREFIX . $this->infoFromConfig;
     }
 }
