@@ -10,7 +10,7 @@ git clone https://github.com/wesolowski/symfony-tdd-workshop.git
 2.Start docker
 
 ```
-docker-composer up -d
+docker-compose up -d
 ```
 
 3.Connect to docker-container
