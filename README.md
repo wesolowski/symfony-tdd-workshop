@@ -42,8 +42,8 @@ Add host
 
 Now you can see symfony:
 
-Start: <http://public.local.docker/>  
-Rest: <http://public.local.docker/data>
+Start: <http://public.local.docker:8080/>  
+Rest: <http://public.local.docker:8080/data>
 
 6.DB
 
