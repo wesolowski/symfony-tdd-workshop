@@ -4,7 +4,7 @@
 1.Clone repo:
 
 ```
-git clone git@github.com:wesolowski/symfony-tdd-workshop.git
+git clone https://github.com/wesolowski/symfony-tdd-workshop.git
 ``` 
 
 2.Start docker
