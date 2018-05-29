@@ -1,7 +1,8 @@
 version: '3'
 
 services:
-    web_test:
+    web:
+        container_name: symfony_tdd
         image: nxswesolowski/ubuntu-php:7.2
         volumes:
             - ./:/var/www
