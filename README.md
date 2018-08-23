@@ -30,7 +30,7 @@ cd /var/www/
 composer install --dev
 php bin/console doctrine:database:create
 php bin/console  doctrine:migrations:migrate
-php bin/phpunit # all unit test should be green :)
+php bin/phpunit # all unit tests should be green :)
 ```
 
 5.Web-browser
